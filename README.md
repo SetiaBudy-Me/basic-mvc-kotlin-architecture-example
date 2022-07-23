@@ -15,3 +15,18 @@ Contoh aplikasi Android sederhana untuk menunjukkan cara kerja arsitektur MVC, m
 
 $~~$
 ## MVC
+***MVC (Model-View-Controller)*** adalah sebuah metode untuk membuat sebuah aplikasi dengan memisahkan data (Model) dari tampilan (View) dan cara bagaimana memprosesnya (Controller).
+
+<p align="center">
+  <img src="https://github.com/SetiaBudy-Me/basic-mvc-kotlin-architecture-example/blob/master/res/Android-MVC-Flow.jpg">
+</p>
+
+Masing-masing dari komponen tersebut memiliki tanggung jawab sebagai berikut :
+
+1. ***Model*** : Bagian yang bertanggung jawab dengan data yang digunakan oleh aplikasi.
+
+2. ***View*** : Bagian yang bertanggung jawab dengan tampilan pada suatu aplikasi. View bertanggung jawab terhadap semua aksi yang dilakukan oleh user, misalnya pada suatu aplikasi ada suatu button maka view lah yang menginisiasi bahwa button tersebut bisa diklik atau tidaknya.
+
+3. ***Controller*** : Controller adalah bagian yang bertanggung jawab terhadap semua logika proses yang ada di suatu aplikasi.
+
+$~~$ 
